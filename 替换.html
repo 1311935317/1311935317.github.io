@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06-上午内容总结</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<script>
+    /**
+     * 需求1：点击按钮，将p标签文字内容变成红色
+     * 需求2：点击按钮，将p标签背景变成绿色，字体大小变成25px
+     */
+     $(function () {
+
+         $("#btn").click(function () {
+            //$("p").css("color","red")
+             $("p").css({"color":"green","fontSize":"30px"});
+         })
+     })
+</script>
+<body>
+<p>Hello World</p>
+<input type="button" value="按钮" id="btn">
+
+</body>
+</html>
